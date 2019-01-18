@@ -5,11 +5,9 @@
 
 $events = [];
 
-$events['onDocFormRender'] = $modx
-    ->newObject('modPluginEvent')
-    ->fromArray([
-        'event' => 'onDocFormRender',
-    ], '', true, true)
-;
+$events['onDocFormRender'] = $modx->newObject('modPluginEvent');
+$events['onDocFormRender']->fromArray([
+    'event' => 'onDocFormRender',
+], '', true, true);
 
 return $events;
