@@ -117,6 +117,9 @@ $builder->setPackageAttributes([
     'license' => file_get_contents($sources['root'] . 'LICENSE'),
     'readme' => file_get_contents($sources['root'] . 'README.md'),
     'changelog' => file_get_contents($sources['root'] . 'CHANGELOG.md'),
+    'requires' => [
+        'php' => '=>7.0.0',
+    ],
 ]);
 
 // Zip up package
