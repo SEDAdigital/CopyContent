@@ -17,7 +17,7 @@ function getPHPContent(string $file) : string
 }
 
 // Define package names
-define('PKG_NAME', 'CopyContent');
+const PKG_NAME = 'CopyContent';
 define('PKG_NAME_LOWER', strtolower(PKG_NAME));
 $version = explode('-', trim(file_get_contents($root . 'VERSION')));
 define('PKG_VERSION', $version[0]);

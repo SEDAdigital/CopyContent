@@ -1,11 +1,13 @@
 <?php
 
-require_once MODX_CORE_PATH . 'model/modx/processors/resource/getlist.class.php';
+use MODX\Revolution\modContext;
 
-class SearchResource extends modResourceGetListProcessor
+class SearchResource extends \MODX\Revolution\Processors\Resource\GetList
 {
     public function prepareQueryBeforeCount(xPDOQuery $c)
     {
+        $c->leftJoin(modContext::class, 'Context');
+
         $query = $this->getProperty('query');
         $current = $this->getProperty('current');
 

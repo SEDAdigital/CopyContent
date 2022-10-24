@@ -5,6 +5,9 @@
 
 ## [unreleased]
 
+- Revo 3+ compatiblity (#5)
+- Added ability to directly enter target/destination resource ID (#3)
+- Added Spanish lexicons. Thanks to @guelu63 (#4)
 - Added French lexicons. Thanks to @julienstuder
 
 

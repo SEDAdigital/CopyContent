@@ -1,10 +1,15 @@
 <?php
+
+use MODX\Revolution\modResource;
+use MODX\Revolution\modTemplateVar;
+use MODX\Revolution\Processors\Processor;
+
 /**
  * CopyContent Processor
  * @copyright 2019 SEDA.digital GmbH & Co. KG
  */
 
-class CopyContent extends modProcessor
+class CopyContent extends Processor
 {
     public function process()
     {

@@ -1,12 +1,15 @@
 <?php
+
+use MODX\Revolution\modSystemEvent;
+
 /**
  * CopyContent
  * A plugin to load "copy content" assets
  *
- * @var modX $modx
+ * @var \MODX\Revolution\modX $modx
  * @var array $scriptProperties
  *
- * @var modPlugin $this
+ * @var \MODX\Revolution\modPlugin $this
  *
  * @see modPlugin::process()
  *

@@ -1,7 +1,7 @@
 <?php
 /**
  * @var $_lang array
- * @var modLexicon $this
+ * @var \MODX\Revolution\modLexicon $this
  *
  * @see modLexicon::getFileTopic()
  */

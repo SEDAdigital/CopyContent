@@ -137,7 +137,7 @@ CopyContent.Resource = function(config) {
         ,pageSize: 20
         ,url: CopyContent.config.connector
         ,baseParams: {
-            action: 'searchResource'
+            action: 'searchresource'
             ,current: MODx.request.id
         }
     });
