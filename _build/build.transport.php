@@ -1,4 +1,10 @@
 <?php
+
+declare(strict_types=1);
+
+use MODX\Revolution\modX;
+use MODX\Revolution\Transport\modPackageBuilder;
+
 /**
  * Build the transport package
  */
@@ -119,6 +125,7 @@ $builder->setPackageAttributes([
     'changelog' => file_get_contents($sources['root'] . 'CHANGELOG.md'),
     'requires' => [
         'php' => '=>7.0.0',
+        'modx' => '=>3.0.0',
     ],
 ]);
 
