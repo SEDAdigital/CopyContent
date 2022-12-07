@@ -10,7 +10,3 @@ include:
 build:transport:
   extends: .build-transport
   stage: build
-  artifacts:
-    paths:
-      - "modx-environment/components/${CI_PROJECT_NAME}-${CI_COMMIT_REF_NAME}/_build/_packages/*.transport.zip"
-    #expire_in: 1 day
