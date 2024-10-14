@@ -5,6 +5,8 @@
 
 ## [unreleased]
 
+## [0.2.0-pl]
+
 - Revo 3+ compatiblity (#5)
 - Added ability to directly enter target/destination resource ID (#3)
 - Added Spanish lexicons. Thanks to @guelu63 (#4)
@@ -15,4 +17,5 @@
 
 - First release
 
-[unreleased]: https://github.com/SEDAdigital/CopyContent/compare/0.1.0...master
+[0.2.0-pl]: https://github.com/SEDAdigital/CopyContent/compare/0.2.0...0.1.0
+[unreleased]: https://github.com/SEDAdigital/CopyContent/compare/0.1.0...main
