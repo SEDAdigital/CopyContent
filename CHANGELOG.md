@@ -17,5 +17,5 @@
 
 - First release
 
-[0.2.0-pl]: https://github.com/SEDAdigital/CopyContent/compare/0.2.0...0.1.0
-[unreleased]: https://github.com/SEDAdigital/CopyContent/compare/0.1.0...main
+[0.2.0-pl]: https://github.com/SEDAdigital/CopyContent/compare/0.1.0...0.2.0-pl
+[unreleased]: https://github.com/SEDAdigital/CopyContent/compare/0.2.0-pl...main
