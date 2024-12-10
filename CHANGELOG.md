@@ -7,7 +7,8 @@
 
 ## [0.2.0-pl] - 2024-12-10
 
-- Revo 3+ compatibility (#5)
+- Added MODx 3.x compatibility (#5)
+- Dropped MODx 2.x support
 - Added ability to directly enter target/destination resource ID (#3)
 - Added Spanish lexicons. Thanks to @guelu63 (#4)
 - Added French lexicons. Thanks to @julienstuder
