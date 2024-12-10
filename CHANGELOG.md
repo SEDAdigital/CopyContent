@@ -5,9 +5,9 @@
 
 ## [unreleased]
 
-## [0.2.0-pl]
+## [0.2.0-pl] - 2024-12-10
 
-- Revo 3+ compatiblity (#5)
+- Revo 3+ compatibility (#5)
 - Added ability to directly enter target/destination resource ID (#3)
 - Added Spanish lexicons. Thanks to @guelu63 (#4)
 - Added French lexicons. Thanks to @julienstuder
