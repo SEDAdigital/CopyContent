@@ -124,8 +124,8 @@ $builder->setPackageAttributes([
     'readme' => file_get_contents($sources['root'] . 'README.md'),
     'changelog' => file_get_contents($sources['root'] . 'CHANGELOG.md'),
     'requires' => [
-        'php' => '=>7.0.0',
-        'modx' => '=>3.0.0',
+        'php' => '>=7.0.0',
+        'modx' => '>=3.0.0',
     ],
 ]);
 
