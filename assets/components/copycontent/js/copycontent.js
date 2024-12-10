@@ -32,7 +32,7 @@ CopyContent.Window = function (config) {
         title: _('copycontent.title')
         ,url: MODx.config.connector_url
         ,saveBtnText: _('copycontent.copy_button')
-        ,action: 'CopyContent\\\\Processor\\\\CopyContent'
+        ,action: 'CopyContent\\Processor\\CopyContent'
         ,fields: [{
             xtype: 'box'
             ,html: _('copycontent.description')
@@ -137,7 +137,7 @@ CopyContent.Resource = function(config) {
         ,pageSize: 20
         ,url: MODx.config.connector_url
         ,baseParams: {
-            action: 'Copycontent\\\\Processor\\\\SearchResource'
+            action: 'CopyContent\\Processor\\SearchResource'
             ,current: MODx.request.id
         }
     });

@@ -9,8 +9,7 @@ declare(strict_types=1);
  * @see \MODX\Revolution\modX::_initNamespaces
  */
 try {
-    \MODX\Revolution\modX::getLoader()->addPsr4('CopyContent', $namespace['path'] . 'src/');
-}
-catch (\Throwable $exception) {
+    \MODX\Revolution\modX::getLoader()->setPsr4('CopyContent\\', [$namespace['path'] . 'src']);
+} catch (\Throwable $exception) {
     $modx->log(\xPDO\xPDO::LOG_LEVEL_ERROR, $exception->getMessage());
 }

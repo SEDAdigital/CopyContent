@@ -6,6 +6,7 @@ namespace CopyContent\Processor;
 
 use MODX\Revolution\modResource;
 use MODX\Revolution\modTemplateVar;
+use MODX\Revolution\modX;
 use MODX\Revolution\Processors\Processor;
 
 final class CopyContent extends Processor
