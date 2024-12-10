@@ -13,7 +13,7 @@
 
 ## Requirements
 
-* MODX Revolution 2.3.0+
+* MODX Revolution 3+
 * PHP 7.0+
 
 
