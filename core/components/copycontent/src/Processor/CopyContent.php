@@ -1,15 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
+namespace CopyContent\Processor;
+
 use MODX\Revolution\modResource;
 use MODX\Revolution\modTemplateVar;
 use MODX\Revolution\Processors\Processor;
 
-/**
- * CopyContent Processor
- * @copyright 2019 SEDA.digital GmbH & Co. KG
- */
-
-class CopyContent extends Processor
+final class CopyContent extends Processor
 {
     public function process()
     {
@@ -85,5 +84,3 @@ class CopyContent extends Processor
         return $saved;
     }
 }
-
-return CopyContent::class;

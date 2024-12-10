@@ -30,9 +30,9 @@ CopyContent.Window = function (config) {
 
     Ext.applyIf(config, {
         title: _('copycontent.title')
-        ,url: CopyContent.config.connector
+        ,url: MODx.config.connector_url
         ,saveBtnText: _('copycontent.copy_button')
-        ,action: 'copycontent'
+        ,action: 'CopyContent\\\\Processor\\\\CopyContent'
         ,fields: [{
             xtype: 'box'
             ,html: _('copycontent.description')
@@ -70,7 +70,7 @@ Ext.extend(CopyContent.Window, MODx.Window, {
     /**
      * Display a confirmation panel offering user to edit the target resource
      */
-    showSuccess: function () {
+    showSuccess: function () {
         var values = this.fp.getForm().getValues();
         Ext.Msg.confirm(
             _('copycontent.success_title')
@@ -135,9 +135,9 @@ CopyContent.Resource = function(config) {
         ,editable: true
         ,enableKeyEvents: true
         ,pageSize: 20
-        ,url: CopyContent.config.connector
+        ,url: MODx.config.connector_url
         ,baseParams: {
-            action: 'searchresource'
+            action: 'Copycontent\\\\Processor\\\\SearchResource'
             ,current: MODx.request.id
         }
     });

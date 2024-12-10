@@ -1,8 +1,14 @@
 <?php
 
-use MODX\Revolution\modContext;
+declare(strict_types=1);
 
-class SearchResource extends \MODX\Revolution\Processors\Resource\GetList
+namespace CopyContent\Processor;
+
+use MODX\Revolution\modContext;
+use MODX\Revolution\Processors\Resource\GetList;
+use xPDO\Om\xPDOQuery;
+
+final class SearchResource extends GetList
 {
     public function prepareQueryBeforeCount(xPDOQuery $c)
     {
@@ -36,5 +42,3 @@ class SearchResource extends \MODX\Revolution\Processors\Resource\GetList
         return $c;
     }
 }
-
-return SearchResource::class;

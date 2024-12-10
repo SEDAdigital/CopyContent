@@ -31,15 +31,6 @@ $assets = $modx->getOption(
     $modx->getOption('assets_url') . 'components/copycontent/'
 );
 
-$modx->controller->addHtml(<<<HTML
-<script>
-Ext.ns('CopyContent');
-CopyContent.config = {
-    connector: '{$assets}connector.php'
-}
-</script>
-HTML
-);
 $modx->controller->addJavascript("{$assets}/js/copycontent.js");
 
 return;
